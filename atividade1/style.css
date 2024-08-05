@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .div1 {
@@ -24,8 +26,19 @@ input, button {
     border-radius: 5px;
     outline: none;
     border: 1px solid black;
+    text-align: center;
 }
 
 button {
     background-image: linear-gradient(to right, rgba(221, 26, 12, 0.4), rgba(252, 17, 0, 0.4) );
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
 }
