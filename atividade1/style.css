@@ -1,11 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:sans-serif;
     font-size: 20px;
 }
 
 body {
+    background-color: #161a1d;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -15,30 +16,49 @@ body {
 }
 
 .div1 {
+  align-items: center;
+  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 5px;
   font-size: large;
 }
 
-input, button {
+input, #button {
     font-size: 20px;
     border-radius: 5px;
     outline: none;
     border: 1px solid black;
     text-align: center;
+    box-shadow: 3px 3px;
+    width: 300px;
 }
 
-button {
-    background-image: linear-gradient(to right, rgba(221, 26, 12, 0.4), rgba(252, 17, 0, 0.4) );
+#botao {
+    background-image: linear-gradient(to right, #660708, #d90429);
+    color: white;
+    box-shadow: none;
+    text-shadow: 0.8px 0.8px black;
+    width: 200px;
+    border-radius: 20px;
+    text-decoration: none;
+    
 }
 
-.footer {
+#footer {
     display: flex;
     justify-content: center;
     text-align: center;
+    color: white;
+    margin-top: 10px;
 }
 
 h1 {
     font-size: 30px;
+}
+
+#formTitle {
+    color: white;
+    text-shadow: 2.5px 2.5px black;
+    
 }
