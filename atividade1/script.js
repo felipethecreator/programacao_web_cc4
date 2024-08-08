@@ -1,7 +1,6 @@
 const form = document.getElementById('infoForm');
 
-form.addEventListener('submit', function (event) {
-    event.preventDefault();
+form.addEventListener('submit', () => {
 
     const nome = document.getElementById('nome').value;
     const idade = document.getElementById('idade').value;
