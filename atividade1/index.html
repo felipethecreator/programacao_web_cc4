@@ -3,17 +3,21 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=], initial-scale=1.0">
+    <meta name="viewport" content="width=initial-scale=1.0">
     <title>Formulário de informações</title>
 </head>
 <body>
-    <div class="div1">
-        <h1 id="formTitle">FORMULÁRIO DE INFOS PESSOAIS</h1>
-        <input id="nome" type="text" placeholder="Nome">
-        <input id="idade" type="number" placeholder="Idade">
-        <input id="cpf" type="number" placeholder="CPF">
-        <a id="botao" href="https://www.youtube.com/watch?v=J-F4eKhSU44" target="_blank">Enviar</a>
+    <div>
+        <form class="formBody" id="infoForm">
+            <h1 id="formTitle">FORMULÁRIO DE INFOS PESSOAIS</h1>
+            <input id="nome" type="text" placeholder="Nome" required>
+            <input id="idade" type="number" placeholder="Idade" required>
+            <input id="cpf" type="number" placeholder="CPF" required>
+            <button id="botao" type="submit">Enviar</button>
+        </form>
     </div>
     <footer id="footer">Javex™. Todos os direitos reservados</footer>
+
+    <script src="script.js"></script>  
 </body>
 </html>

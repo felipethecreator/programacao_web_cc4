@@ -15,7 +15,7 @@ body {
     flex-direction: column;
 }
 
-.div1 {
+.formBody {
   align-items: center;
   text-align: center;
   display: flex;
@@ -24,7 +24,7 @@ body {
   font-size: large;
 }
 
-input, #button {
+input, #botao {
     font-size: 20px;
     border-radius: 5px;
     outline: none;
