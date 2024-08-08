@@ -1,6 +1,7 @@
 const form = document.getElementById('infoForm');
 
-form.addEventListener('submit', () => {
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
 
     const nome = document.getElementById('nome').value;
     const idade = document.getElementById('idade').value;
@@ -16,5 +17,5 @@ form.addEventListener('submit', () => {
 
     console.log(jsonData);
 
-    alert("Usuário cadastrado com sucesso!");
+    alert(`Usuário cadastrado com sucesso. Olá, ${nome}!`);
 });
