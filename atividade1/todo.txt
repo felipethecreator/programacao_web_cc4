@@ -1,3 +1,5 @@
+ATIVIDADE PARA O DIA 19: ACRESCENTAR VALIDAÇÃO DE EMAIL.
+
 acrescentar tratamento de erro dependendo da situação
 
 acrescentar node e salvar o form no mongodb atlas
