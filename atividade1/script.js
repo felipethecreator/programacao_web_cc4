@@ -10,7 +10,7 @@ form.addEventListener('submit', (event) => {
     const email = document.getElementById('email').value;
     
     function ConferirEmail() {
-        const emailRegex = /^\w+.*@\w+(.\w+)+$/;
+        const emailRegex = /^\w+(\.\w+)*@\w+(\.\w+)+$/;
         return emailRegex.test(email);
     }
 
