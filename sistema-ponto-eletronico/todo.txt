@@ -1,0 +1,14 @@
+clicar no bater ponto = abrir uma tela modal por cima
+-- fixado na imagem o modelo da pagina dsaokdasjkdawjopdawkl
+o usuário só poderá fechar a tela modal caso ele clique no "x" ou aperte esc
+
+4 botoes: entrada, intervalo, volta-intervalo e saida
+registrar:
+
+{
+    data-ponto
+    hora-ponto
+    localização caba (min latitute e longitude)
+    data-atual
+    hora-atual
+}
